@@ -1,3 +1,176 @@
-body {
-    background-image: url(https://goo.gl/images/6tWgAz)
+* {
+    box-sizing: border-box;
+  }
+
+.top-nav{
+    background: whitesmoke;
+    margin-top:-8px;
+    margin-left: -8px;
+    margin-right: -8px;
+
+
+}
+
+.yourname{
+    color: aliceblue;
+    background:#4aaaa5;
+    padding: 15px;
+    font-size: 30px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    display: block;
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+a {
+    text-decoration: none;
+    color:grey;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.fl {
+    float: left;
+  }
+  
+.fr{
+    float: right;
+}
+  
+.clearf:after,
+.clearf:before {
+    content: " ";
+    display: block;
+    clear: both;
+}
+  
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9 {
+     display: block;
+     position: relative;
+     min-height: 1px;
+     float: left;
+}
+  
+.col-1 {
+    width: 10%
+}
+  
+.col-2 {
+    width: 20%
+}
+  
+.col-3 {
+    width: 30%
+}
+  
+.col-4 {
+    width: 40%
+}
+  
+.col-5 {
+    width: 50%
+}
+  
+.col-6 {
+    width: 60%
+}
+  
+.col-7 {
+    width: 70%
+}
+  
+.col-8 {
+    width: 80%
+}
+  
+.col-9 {
+    width: 90%
+}
+
+.top-nav .item{
+    display: inline-block;
+    padding: 6px 10px;
+}
+
+p{
+    text-align: left;
+    color:#4aaaa5;
+    font-size: 30px;
+}
+
+.main{
+    background-color: antiquewhite;
+    height: 420px;
+    width: 960px;
+    margin-top: 20px;
+
+}
+
+.trans{
+    height:350px;
+    width: 900px;
+    margin-top: 40px;
+    margin:20px;
+    background:rgba(0,0,0,0)
+
+}
+
+
+
+#me {
+    height: 190px;
+    width: 280px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.aboutme,
+p1,
+p2,
+p3,
+p4,
+p5,
+p6,
+p7,
+p8,
+p9,
+p10{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p1,
+p2,
+p3,
+p4,
+p5,
+p6,
+p7,
+p8,
+p9,
+p10{
+    font-size: 15px;
+    color:grey;
+    text-align: left;
+}
+
+
+
+.aboutme{
+    color:#4aaaa5;
+    padding:15px;
+    text-align: left;
+    font-size: 30px;
+    border: 5px;
 }
