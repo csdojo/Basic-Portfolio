@@ -3,12 +3,10 @@
   }
 
 .top-nav{
-    background: whitesmoke;
+    background: white;
     margin-top:-8px;
     margin-left: -8px;
     margin-right: -8px;
-
-
 }
 
 .yourname{
@@ -23,7 +21,6 @@
     display: block;
     max-width: 960px;
     margin: 0 auto;
-    
 }
 
 a {
@@ -31,6 +28,84 @@ a {
     color:grey;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+.top-nav .item{
+    display: inline-block;
+    padding: 6px 10px;
+}
+
+
+p{
+    text-align: left;
+    color:#4aaaa5;
+    font-size: 30px;
+}
+
+.main{
+    background-color: rgb(231, 231, 231);
+    height: 420px;
+    width: 960px;
+    margin-top: 25px;
+
+}
+
+.trans{
+    height:350px;
+    width: 900px;
+    margin-top: 40px;
+    margin:20px;
+    background:rgba(0,0,0,0)
+
+}
+
+#me {
+    height: 190px;
+    width: 280px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.aboutme,
+p1,
+p2,
+p3,
+p4,
+p5,
+p6,
+p7,
+p8,
+p9,
+p10{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p1,
+p2,
+p3,
+p4,
+p5,
+p6,
+p7,
+p8,
+p9,
+p10{
+    font-size: 15px;
+    color:grey;
+    text-align: left;
+}
+
+
+
+.aboutme{
+    color:#4aaaa5;
+    text-align: left;
+    font-size: 30px;
+    border: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
 
 .fl {
     float: left;
@@ -98,79 +173,3 @@ a {
     width: 90%
 }
 
-.top-nav .item{
-    display: inline-block;
-    padding: 6px 10px;
-}
-
-p{
-    text-align: left;
-    color:#4aaaa5;
-    font-size: 30px;
-}
-
-.main{
-    background-color: antiquewhite;
-    height: 420px;
-    width: 960px;
-    margin-top: 20px;
-
-}
-
-.trans{
-    height:350px;
-    width: 900px;
-    margin-top: 40px;
-    margin:20px;
-    background:rgba(0,0,0,0)
-
-}
-
-
-
-#me {
-    height: 190px;
-    width: 280px;
-    float: left;
-    margin-right: 15px;
-    margin-bottom: 10px;
-}
-
-.aboutme,
-p1,
-p2,
-p3,
-p4,
-p5,
-p6,
-p7,
-p8,
-p9,
-p10{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-p1,
-p2,
-p3,
-p4,
-p5,
-p6,
-p7,
-p8,
-p9,
-p10{
-    font-size: 15px;
-    color:grey;
-    text-align: left;
-}
-
-
-
-.aboutme{
-    color:#4aaaa5;
-    padding:15px;
-    text-align: left;
-    font-size: 30px;
-    border: 5px;
-}
