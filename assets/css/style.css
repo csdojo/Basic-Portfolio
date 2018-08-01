@@ -7,7 +7,6 @@
     width: 100%;
     border: 2px solid #cccccc;
     height: 80px;
-    margin: 0 0 20 0;
 }
 
 .yourname{
@@ -43,7 +42,6 @@ a {
 }
 
 
-
 .main{
     position: relative;
     background-color: #ffffff;
@@ -55,6 +53,7 @@ a {
 }
 
 .trans{
+    position: relative;
     height:350px;
     width: 900px;
     margin-top: 35px;
@@ -109,6 +108,7 @@ p10{
     border: 5px;
     padding-top: 5px;
     padding-bottom: 10px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
 }
 
 
