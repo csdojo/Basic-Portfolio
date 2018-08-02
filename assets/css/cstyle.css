@@ -144,3 +144,16 @@ footer p{
 .reset, input[type="reset"]{
     border: 0;
 }
+
+
+#message, input:focus{
+    outline: none;
+}
+
+#submit:active{
+    background: #777777;
+}
+
+.reset:active{
+    background: #777777;
+}
