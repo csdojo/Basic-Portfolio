@@ -136,3 +136,11 @@ footer p{
     margin-top: 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+#submit, input[type="submit"]{
+    border: 0;
+}
+
+.reset, input[type="reset"]{
+    border: 0;
+}
