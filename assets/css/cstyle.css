@@ -86,8 +86,7 @@ hr {
 
 }
 #name,
-#email,
-#message{
+#email{
     width: 95%;
     border: 1px solid #dddddd;
 }
@@ -97,17 +96,19 @@ hr {
 
 }
 
-#message{
-    height:150px;
-    text-align: left;
-}
+
 #submit{
     margin-top: 10px;
 }
 
-
-
-
+.reset{
+    margin-top: 10px;
+    margin-right: 2.5%;
+}
+#message{
+    width: 95%;
+    border:1px solid #dddddd;
+}
 
 footer{
     position: absolute;
